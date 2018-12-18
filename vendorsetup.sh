@@ -1,2 +1,3 @@
-add_lunch_combo cm_milletwifi-eng
-add_lunch_combo cm_milletwifi-userdebug
+for i in eng userdebug user; do
+	add_lunch_combo lineage_milletwifi-${i}
+done
